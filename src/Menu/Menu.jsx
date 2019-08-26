@@ -15,9 +15,10 @@ class Menu extends Component {
     render() {
         return (
             <div className="col-md-6 col-md-offset-3">
-                <h2>Menu</h2>
+                <h2>Welcome</h2>
                 <div className="form-group">
                     <Link to="/login" className="btn btn-link">Login</Link>
+                    <br />
                     <Link to="/register" className="btn btn-link">Register</Link>
                 </div>
             </div>
