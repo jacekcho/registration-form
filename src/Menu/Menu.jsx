@@ -17,9 +17,9 @@ class Menu extends Component {
             <div className="col-md-6 col-md-offset-3">
                 <h2>Welcome</h2>
                 <div className="form-group">
-                    <Link to="/login" className="btn btn-link">Login</Link>
+                    <Link to="/login" className="btn btn-link" id="loginButton">Login</Link>
                     <br />
-                    <Link to="/register" className="btn btn-link">Register</Link>
+                    <Link to="/register" className="btn btn-link" id="registerButton">Register</Link>
                 </div>
             </div>
         );
