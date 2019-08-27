@@ -37,7 +37,7 @@ class HomePage extends React.Component {
                 </ul>
                 }
                 <p>
-                    <Link to="/login" data-test="logout">Logout</Link>
+                    <Link to="/menu" data-test="logout">Logout</Link>
                 </p>
             </div>
         );
