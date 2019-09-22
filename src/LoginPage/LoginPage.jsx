@@ -53,7 +53,7 @@ class LoginPage extends Component {
                     </div>
                     <div className={'form-group' + (submitted && !password ? ' has-error' : '')}>
                         <label htmlFor="password">Password</label>
-                        <input type="password" className="form-control" name="password"  data-test="password" value={password}
+                        <input type="password" className="form-control" name="password" data-test="userPassword" data-test="password" value={password}
                                onChange={this.handleChange}/>
                         {submitted && !password &&
                         <div className="help-block">Password is required</div>
